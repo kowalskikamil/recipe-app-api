@@ -1,6 +1,7 @@
 """
 Tests for the user API.
 """
+from django.contrib.auth.hashers import make_password
 from django.test import TestCase
 from django.contrib.auth import get_user_model
 from django.urls import reverse
